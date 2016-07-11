@@ -1,0 +1,12 @@
+{"name": "Gladiator Go",
+  "version": "0.0.1",
+  "authors": "Chase Patterson",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.16"
+  }
+}

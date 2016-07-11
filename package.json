@@ -1,0 +1,24 @@
+{
+  "name": "MVP_Project",
+  "version": "0.0.1",
+  "description": "Thing that does a thing",
+  "main": "index.html",
+  "license": "Proprietary",
+  "scripts": {
+    "start": "node index.html"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^0.6.4",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-nodemon": "^0.2.1"
+  }
+}
