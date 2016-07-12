@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Hello Word!</title>
-</head>
-<body>
-<header></header>
-<h1> Hello World!</h1>
-</body>
+<html ng-app="gg">
+  <head>
+  <meta charset="utf-8" />
+    <title>Gladiator Go!</title>
+    <script src="js/bower_components/angular/angular.js"></script>
+    <script src="app/app.js"></script>
+    <script src="js/dieController.js"></script>
+  </head>
+  <body ng-app="gg">
+    <div class="container" ng-controller="DieController">
+      <h1>{{message}}</h1>
+    </div>
+
+  </body>
 </html>
