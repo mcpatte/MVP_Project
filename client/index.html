@@ -6,12 +6,20 @@
     <script src="/bower_components/angular/angular.js"></script>
     <script src="app/app.js"></script>
     <script src="js/dieController.js"></script>
+    <script src="js/gladControllers.js"></script>
   </head>
   <body ng-app="gg">
+     <div class="creator" ng-controller="GladController">
+       <form name='gladForm' ng-submit='addName()'>
+         <input type="text" name="gladName" ng-model="gladiator.name">
+         <button type="submit" value="Name">Add name</button>
+       </form>
+     </div>
     <div class="container" ng-controller="DieController">
+    <form></form>
       <input type="button" value="Click for fight score!" ng-click="dieRoll()"> {{results}}
-
     </div>
+
 
   </body>
 </html>

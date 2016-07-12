@@ -1,3 +1,4 @@
 angular.module('gg',[
-  'gg.DieController'
+  'gg.DieController',
+  'gg.GladController'
   ])
